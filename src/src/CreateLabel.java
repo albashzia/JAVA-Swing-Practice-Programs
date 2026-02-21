@@ -13,5 +13,7 @@ public class CreateLabel {
 
         JLabel label = new JLabel();
         label.setText("Do you even code bro???");
+
+        frame.add(label);
     }
 }
