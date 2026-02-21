@@ -10,6 +10,7 @@ public class CreateLabel {
         JLabel label = new JLabel();
         label.setText("Do you even code bro???");
         label.setIcon(image);
+        label.setHorizontalTextPosition(JLabel.CENTER);
 
         JFrame frame = new JFrame();
         frame.setSize(2500,2500);
