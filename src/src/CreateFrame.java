@@ -1,4 +1,5 @@
 import javax.swing.*;
+import java.awt.Color;
 
 public class CreateFrame {
     public static void main() {
@@ -11,5 +12,6 @@ public class CreateFrame {
 
         ImageIcon image = new ImageIcon("LMS.png");
         frame.setIconImage(image.getImage());
+        frame.getContentPane().setBackground(Color.GREEN);
     }
 }
