@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.Color;
 
 public class CreateFrame {
-    public static void main() {
+    public static void main(String[] args) {
         JFrame frame = new JFrame(); // creates a frame
         frame.setVisible(true); // makes frame visible
         frame.setSize(420,420); // sets the x-dimension and y-dimension of frame
