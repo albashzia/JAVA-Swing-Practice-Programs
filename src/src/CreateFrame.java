@@ -7,5 +7,6 @@ public class CreateFrame {
         frame.setSize(420,420);
         frame.setTitle("First JFrame Program");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setResizable(false);
     }
 }
