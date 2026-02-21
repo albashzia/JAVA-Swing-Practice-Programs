@@ -10,5 +10,6 @@ public class CreateFrame {
         frame.setResizable(false);
 
         ImageIcon image = new ImageIcon("LMS.png");
+        frame.setIconImage(image.getImage());
     }
 }
