@@ -1,9 +1,11 @@
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.ImageIcon;
 
 public class CreateLabel {
     public static void main() {
 
+        ImageIcon image = new ImageIcon("pc.png");
         JFrame frame = new JFrame();
         frame.setSize(500,500);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
