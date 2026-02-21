@@ -5,5 +5,6 @@ public class CreateFrame {
         JFrame frame = new JFrame();
         frame.setVisible(true);
         frame.setSize(420,420);
+        frame.setTitle("First JFrame Program");
     }
 }
