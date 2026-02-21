@@ -1,4 +1,4 @@
-import javax.swing.JFrame;
+import javax.swing.*;
 
 public class CreateFrame {
     public static void main() {
@@ -8,5 +8,7 @@ public class CreateFrame {
         frame.setTitle("First JFrame Program");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setResizable(false);
+
+        ImageIcon image = new ImageIcon("LMS.png");
     }
 }
