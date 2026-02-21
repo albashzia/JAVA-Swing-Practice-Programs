@@ -13,6 +13,7 @@ public class CreateFrame {
         ImageIcon image = new ImageIcon("LMS.png");
         frame.setIconImage(image.getImage());
         //frame.getContentPane().setBackground(Color.GREEN);
-        frame.getContentPane().setBackground(new Color(123,50,250));
+        //frame.getContentPane().setBackground(new Color(123,50,250));
+        frame.getContentPane().setBackground(new Color(0x000000));
     }
 }
