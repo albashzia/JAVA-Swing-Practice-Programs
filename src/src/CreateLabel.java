@@ -1,4 +1,5 @@
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 
 public class CreateLabel {
     public static void main() {
@@ -9,6 +10,8 @@ public class CreateLabel {
         frame.setVisible(true);
         frame.setTitle("Labels Practice Program");
 
+
+        JLabel label = new JLabel();
 
     }
 }
