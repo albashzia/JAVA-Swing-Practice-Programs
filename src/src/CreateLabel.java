@@ -21,6 +21,8 @@ public class CreateLabel {
 
         label.setFont(new Font("MV Boli",Font.PLAIN,20));
 
+        label.setIconTextGap(70);
+
         JFrame frame = new JFrame();
         frame.setSize(500,500);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
