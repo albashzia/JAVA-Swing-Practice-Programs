@@ -26,6 +26,8 @@ public class CreateLabel {
         label.setBackground(Color.cyan);
         label.setOpaque(true);
 
+        label.setBorder(border);
+
         JFrame frame = new JFrame();
         frame.setSize(500,500);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
