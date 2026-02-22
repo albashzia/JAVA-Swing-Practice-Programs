@@ -23,6 +23,9 @@ public class CreateLabel {
 
         label.setIconTextGap(70);
 
+        label.setBackground(Color.cyan);
+        label.setOpaque(true);
+
         JFrame frame = new JFrame();
         frame.setSize(500,500);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
