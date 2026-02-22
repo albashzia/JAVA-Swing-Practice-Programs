@@ -36,7 +36,7 @@ public class CreateLabel {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
         frame.setTitle("Labels Practice Program");
-
+        frame.setLayout(null);
         frame.add(label);
     }
 }
