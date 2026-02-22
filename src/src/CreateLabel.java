@@ -35,6 +35,7 @@ public class CreateLabel {
 
         JFrame frame = new JFrame();
         //frame.setSize(500,500);
+        frame.setResizable(false);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
         frame.setTitle("Labels Practice Program");
