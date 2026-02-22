@@ -31,14 +31,15 @@ public class CreateLabel {
         label.setVerticalAlignment(JLabel.CENTER);
         label.setHorizontalAlignment(JLabel.CENTER);
 
-        label.setBounds(0,0,450,450);
+        //label.setBounds(0,0,450,450);
 
         JFrame frame = new JFrame();
-        frame.setSize(500,500);
+        //frame.setSize(500,500);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
         frame.setTitle("Labels Practice Program");
-        frame.setLayout(null);
+        //frame.setLayout(null);
         frame.add(label);
+        frame.pack();
     }
 }
