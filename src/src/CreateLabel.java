@@ -1,6 +1,7 @@
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.ImageIcon;
+import java.awt.Color;
 
 public class CreateLabel {
     public static void main() {
@@ -12,6 +13,8 @@ public class CreateLabel {
         label.setIcon(image);
         label.setHorizontalTextPosition(JLabel.CENTER);
         label.setVerticalTextPosition(JLabel.TOP);
+
+        label.setForeground(Color.BLUE);
 
         JFrame frame = new JFrame();
         frame.setSize(500,500);
