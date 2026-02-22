@@ -29,6 +29,7 @@ public class CreateLabel {
         label.setBorder(border);
 
         label.setVerticalAlignment(JLabel.CENTER);
+        label.setHorizontalAlignment(JLabel.CENTER);
 
         JFrame frame = new JFrame();
         frame.setSize(500,500);
