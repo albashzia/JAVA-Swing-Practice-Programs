@@ -11,6 +11,7 @@ public class CreateLabel {
         label.setText("Do you even code bro???");
         label.setIcon(image);
         label.setHorizontalTextPosition(JLabel.CENTER);
+        label.setVerticalTextPosition(JLabel.TOP);
 
         JFrame frame = new JFrame();
         frame.setSize(500,500);
