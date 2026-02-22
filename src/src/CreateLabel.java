@@ -2,6 +2,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.ImageIcon;
 import java.awt.Color;
+import java.awt.Font;
 
 public class CreateLabel {
     public static void main() {
@@ -17,6 +18,8 @@ public class CreateLabel {
         //label.setForeground(Color.BLUE);
         //label.setForeground(new Color(20,200,60));
         label.setForeground(new Color(0x000333));
+
+        label.setFont(new Font("MV Boli",Font.PLAIN,20));
 
         JFrame frame = new JFrame();
         frame.setSize(500,500);
