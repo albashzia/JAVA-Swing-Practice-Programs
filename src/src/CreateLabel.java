@@ -5,7 +5,7 @@ import javax.swing.ImageIcon;
 public class CreateLabel {
     public static void main() {
 
-        ImageIcon image = new ImageIcon("LMS.png");
+        ImageIcon image = new ImageIcon("300px.png");
 
         JLabel label = new JLabel();
         label.setText("Do you even code bro???");
@@ -13,7 +13,7 @@ public class CreateLabel {
         label.setHorizontalTextPosition(JLabel.CENTER);
 
         JFrame frame = new JFrame();
-        frame.setSize(2500,2500);
+        frame.setSize(500,500);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
         frame.setTitle("Labels Practice Program");
