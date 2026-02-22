@@ -15,7 +15,8 @@ public class CreateLabel {
         label.setVerticalTextPosition(JLabel.TOP);
 
         //label.setForeground(Color.BLUE);
-        label.setForeground(new Color(20,50,60));
+        //label.setForeground(new Color(20,200,60));
+        label.setForeground(new Color(0x000333));
 
         JFrame frame = new JFrame();
         frame.setSize(500,500);
