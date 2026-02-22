@@ -28,6 +28,8 @@ public class CreateLabel {
 
         label.setBorder(border);
 
+        label.setVerticalAlignment(JLabel.CENTER);
+
         JFrame frame = new JFrame();
         frame.setSize(500,500);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
