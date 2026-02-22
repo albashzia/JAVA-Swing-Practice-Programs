@@ -1,6 +1,5 @@
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.ImageIcon;
+import javax.swing.*;
+import javax.swing.border.Border;
 import java.awt.Color;
 import java.awt.Font;
 
@@ -8,6 +7,7 @@ public class CreateLabel {
     public static void main() {
 
         ImageIcon image = new ImageIcon("300px.png");
+        Border border = BorderFactory.createLineBorder(Color.BLACK,3);
 
         JLabel label = new JLabel();
         label.setText("Do you even code bro???");
