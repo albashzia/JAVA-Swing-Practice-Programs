@@ -31,6 +31,8 @@ public class CreateLabel {
         label.setVerticalAlignment(JLabel.CENTER);
         label.setHorizontalAlignment(JLabel.CENTER);
 
+        label.setBounds(0,0,450,450);
+
         JFrame frame = new JFrame();
         frame.setSize(500,500);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
