@@ -14,5 +14,6 @@ public class CreatePanel {
         frame.setSize(550,550);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLayout(null);
+        frame.add(redPanel);
     }
 }
