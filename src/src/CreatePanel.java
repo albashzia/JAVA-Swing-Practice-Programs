@@ -10,6 +10,8 @@ public class CreatePanel {
         JLabel label = new JLabel();
         label.setText("Hi");
         label.setIcon(icon);
+        label.setVerticalAlignment(JLabel.CENTER);
+        label.setHorizontalAlignment(JLabel.CENTER);
 
         JPanel redPanel = new JPanel();
         redPanel.setBackground(Color.red);
@@ -22,8 +24,9 @@ public class CreatePanel {
         JPanel greenPanel = new JPanel();
         greenPanel.setBackground(Color.green);
         greenPanel.setBounds(0,200,400,350);
-        greenPanel.add(label);
         greenPanel.setLayout(new BorderLayout());
+        greenPanel.add(label);
+
 
         JFrame frame = new JFrame();
         frame.setVisible(true);
