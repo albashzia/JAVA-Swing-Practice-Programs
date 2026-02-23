@@ -23,6 +23,7 @@ public class CreatePanel {
         greenPanel.setBackground(Color.green);
         greenPanel.setBounds(0,200,400,350);
         greenPanel.add(label);
+        greenPanel.setLayout(new BorderLayout());
 
         JFrame frame = new JFrame();
         frame.setVisible(true);
