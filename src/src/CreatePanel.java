@@ -21,7 +21,7 @@ public class CreatePanel {
 
         JPanel greenPanel = new JPanel();
         greenPanel.setBackground(Color.green);
-        greenPanel.setBounds(0,200,400,400);
+        greenPanel.setBounds(0,200,400,350);
         greenPanel.add(label);
 
         JFrame frame = new JFrame();
