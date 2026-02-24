@@ -3,7 +3,7 @@ import javax.swing.JButton;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class CreateButton  implements ActionListener {
+public class CreateButton  {
     JButton button = new JButton();
     public static void main(String[] args){
         new CreateButton();
@@ -18,13 +18,14 @@ public class CreateButton  implements ActionListener {
         frame.setSize(500,500);
         frame.setLayout(null);
 
-        button.addActionListener(this);
+        button.addActionListener(e -> System.out.println("Hello"));
         frame.add(button);
     }
-    @Override
-    public void actionPerformed(ActionEvent e) {
-        if(e.getSource()==button){
-            System.out.println("Hello World");
-        }
-    }
+
+//    @Override
+//    public void actionPerformed(ActionEvent e) {
+//        if(e.getSource()==button){
+//            System.out.println("Hello World");
+//        }
+//    }
 }
