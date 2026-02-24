@@ -4,11 +4,13 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class CreateButton  implements ActionListener {
+    JButton button = new JButton();
     public static void main(String[] args){
+        new CreateButton();
+    }
 
-        JButton button = new JButton();
+    public CreateButton(){
         button.setBounds(130,100,200,100);
-
 
         JFrame frame = new JFrame();
         frame.setVisible(true);
@@ -16,11 +18,13 @@ public class CreateButton  implements ActionListener {
         frame.setSize(500,500);
         frame.setLayout(null);
 
+        button.addActionListener(this);
         frame.add(button);
     }
-
     @Override
     public void actionPerformed(ActionEvent e) {
-
+        if(e.getSource()==button){
+            System.out.println("Hello World");
+        }
     }
 }
