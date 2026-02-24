@@ -12,6 +12,7 @@ public class CreateButton  {
     public CreateButton(){
         button.setBounds(130,100,200,100);
         button.setText("Button");
+        button.setFocusable(false);
 
         JFrame frame = new JFrame();
         frame.setVisible(true);
