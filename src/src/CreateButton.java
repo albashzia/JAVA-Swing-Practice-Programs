@@ -1,7 +1,9 @@
 import javax.swing.JFrame;
 import javax.swing.JButton;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
-public class CreateButton {
+public class CreateButton  implements ActionListener {
     public static void main(String[] args){
 
         JButton button = new JButton();
@@ -15,5 +17,10 @@ public class CreateButton {
         frame.setLayout(null);
 
         frame.add(button);
+    }
+
+    @Override
+    public void actionPerformed(ActionEvent e) {
+
     }
 }
