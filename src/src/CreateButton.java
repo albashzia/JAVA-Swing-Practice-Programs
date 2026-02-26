@@ -19,6 +19,7 @@ public class CreateButton  {
         button.setHorizontalTextPosition(JButton.CENTER);
         button.setVerticalTextPosition(JButton.BOTTOM);
         button.setFont(new Font("Comic Sans",Font.ITALIC,25));
+        button.setIconTextGap(-6);
 
         JFrame frame = new JFrame();
         frame.setVisible(true);
