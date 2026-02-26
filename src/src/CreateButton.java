@@ -17,6 +17,7 @@ public class CreateButton  {
 
         label.setIcon(icon);
         label.setBounds(150,250,150,150);
+        label.setVisible(false);
 
         button.setBounds(130,100,200,100);
         button.setText("Button");
