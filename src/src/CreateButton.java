@@ -15,6 +15,8 @@ public class CreateButton  {
         button.setText("Button");
         button.setFocusable(false);
         button.setIcon(image);
+        button.setHorizontalTextPosition(JButton.CENTER);
+        button.setVerticalTextPosition(JButton.BOTTOM);
 
         JFrame frame = new JFrame();
         frame.setVisible(true);
