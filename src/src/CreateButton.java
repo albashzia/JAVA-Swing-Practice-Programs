@@ -20,6 +20,7 @@ public class CreateButton  {
         button.setVerticalTextPosition(JButton.BOTTOM);
         button.setFont(new Font("Comic Sans",Font.ITALIC,25));
         button.setIconTextGap(-6);
+        button.setForeground(Color.BLUE);
 
         JFrame frame = new JFrame();
         frame.setVisible(true);
