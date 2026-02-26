@@ -1,5 +1,4 @@
-import javax.swing.JFrame;
-import javax.swing.JButton;
+import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -10,6 +9,8 @@ public class CreateButton  {
     }
 
     public CreateButton(){
+
+        ImageIcon image = new ImageIcon("50px.png");
         button.setBounds(130,100,200,100);
         button.setText("Button");
         button.setFocusable(false);
