@@ -14,6 +14,10 @@ public class CreateButton  {
 
         ImageIcon icon = new ImageIcon("75px.png");
         ImageIcon image = new ImageIcon("50px.png");
+
+        label.setIcon(icon);
+        label.setBounds(150,250,150,150);
+
         button.setBounds(130,100,200,100);
         button.setText("Button");
         button.setFocusable(false);
