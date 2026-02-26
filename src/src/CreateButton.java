@@ -39,14 +39,13 @@ public class CreateButton  {
         frame.setLayout(null);
         frame.add(label);
 
-        button.addActionListener(e -> System.out.println("Hello"));
+        //button.addActionListener(e -> System.out.println("Hello"));
         frame.add(button);
     }
 
-//    @Override
-//    public void actionPerformed(ActionEvent e) {
-//        if(e.getSource()==button){
-//            System.out.println("Hello World");
-//        }
-//    }
+    public void actionPerformed(ActionEvent e) {
+        if(e.getSource()==button){
+            label.setVisible(true);
+        }
+    }
 }
