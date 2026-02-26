@@ -5,6 +5,7 @@ import java.awt.event.ActionListener;
 
 public class CreateButton  {
     JButton button = new JButton();
+    JLabel label = new JLabel();
     public static void main(String[] args){
         new CreateButton();
     }
