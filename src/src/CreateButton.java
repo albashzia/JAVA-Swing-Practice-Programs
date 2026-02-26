@@ -1,4 +1,5 @@
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -17,6 +18,7 @@ public class CreateButton  {
         button.setIcon(image);
         button.setHorizontalTextPosition(JButton.CENTER);
         button.setVerticalTextPosition(JButton.BOTTOM);
+        button.setFont(new Font("Comic Sans",Font.ITALIC,25));
 
         JFrame frame = new JFrame();
         frame.setVisible(true);
