@@ -23,6 +23,7 @@ public class CreateButton  {
         button.setForeground(Color.BLUE);
         button.setBackground(Color.lightGray);
         button.setBorder(BorderFactory.createEtchedBorder());
+        //button.setEnabled(false);
 
         JFrame frame = new JFrame();
         frame.setVisible(true);
