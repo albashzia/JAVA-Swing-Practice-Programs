@@ -3,7 +3,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class CreateButton  {
+public class CreateButton  implements ActionListener{
     JButton button = new JButton();
     JLabel label = new JLabel();
     public static void main(String[] args){
@@ -39,10 +39,11 @@ public class CreateButton  {
         frame.setLayout(null);
         frame.add(label);
 
-        //button.addActionListener(e -> System.out.println("Hello"));
+        button.addActionListener(this);
         frame.add(button);
     }
 
+    @Override
     public void actionPerformed(ActionEvent e) {
         if(e.getSource()==button){
             label.setVisible(true);
