@@ -21,6 +21,7 @@ public class CreateButton  {
         button.setFont(new Font("Comic Sans",Font.ITALIC,25));
         button.setIconTextGap(-6);
         button.setForeground(Color.BLUE);
+        button.setBackground(Color.lightGray);
 
         JFrame frame = new JFrame();
         frame.setVisible(true);
