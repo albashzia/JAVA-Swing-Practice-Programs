@@ -12,6 +12,7 @@ public class CreateButton  {
 
     public CreateButton(){
 
+        ImageIcon icon = new ImageIcon("75px.png");
         ImageIcon image = new ImageIcon("50px.png");
         button.setBounds(130,100,200,100);
         button.setText("Button");
