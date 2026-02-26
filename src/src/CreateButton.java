@@ -22,6 +22,7 @@ public class CreateButton  {
         button.setIconTextGap(-6);
         button.setForeground(Color.BLUE);
         button.setBackground(Color.lightGray);
+        button.setBorder(BorderFactory.createEtchedBorder());
 
         JFrame frame = new JFrame();
         frame.setVisible(true);
