@@ -37,6 +37,7 @@ public class CreateButton  {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(500,500);
         frame.setLayout(null);
+        frame.add(label);
 
         button.addActionListener(e -> System.out.println("Hello"));
         frame.add(button);
