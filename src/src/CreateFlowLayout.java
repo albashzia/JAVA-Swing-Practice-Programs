@@ -7,6 +7,7 @@ public class CreateFlowLayout {
         JFrame frame = new JFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
+        frame.setLayout(new FlowLayout());
         frame.setSize(500,500);
 
     }
