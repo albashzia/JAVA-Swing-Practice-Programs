@@ -27,5 +27,12 @@ public class CreateBorderLayout {
         panel4.setPreferredSize(new Dimension(100,100));
         panel5.setPreferredSize(new Dimension(100,100));
 
+        frame.add(panel1,BorderLayout.NORTH);
+        frame.add(panel2,BorderLayout.WEST);
+        frame.add(panel3,BorderLayout.EAST);
+        frame.add(panel4,BorderLayout.SOUTH);
+        frame.add(panel5,BorderLayout.CENTER);
+
+
     }
 }
