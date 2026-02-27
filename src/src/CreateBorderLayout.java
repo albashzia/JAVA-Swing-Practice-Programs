@@ -35,6 +35,14 @@ public class CreateBorderLayout {
         frame.add(panel4,BorderLayout.SOUTH);
         frame.add(panel5,BorderLayout.CENTER);
 
+        //=============== SUB-PANELS =======================
+
+        JPanel panel6 = new JPanel();
+        JPanel panel7 = new JPanel();
+        JPanel panel8 = new JPanel();
+        JPanel panel9 = new JPanel();
+        JPanel panel10 = new JPanel();
+
 
     }
 }
