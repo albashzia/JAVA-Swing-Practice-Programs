@@ -1,6 +1,7 @@
-import java.awt.FlowLayout;
+import java.awt.*;
 import javax.swing.JFrame;
 import javax.swing.JButton;
+import javax.swing.JPanel;
 
 public class CreateFlowLayout {
     public static void main(String args[]){
@@ -9,6 +10,10 @@ public class CreateFlowLayout {
         frame.setVisible(true);
         frame.setLayout(new FlowLayout(FlowLayout.CENTER,10,10));
         frame.setSize(500,500);
+
+        JPanel panel = new JPanel();
+        panel.setPreferredSize(new Dimension(250,250));
+        panel.setBackground(Color.DARK_GRAY);
 
         frame.add(new JButton("1"));
         frame.add(new JButton("2"));
