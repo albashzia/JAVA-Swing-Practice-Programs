@@ -26,5 +26,7 @@ public class CreateFlowLayout {
         panel.add(new JButton("8"));
         panel.add(new JButton("9"));
 
+        frame.add(panel);
+
     }
 }
