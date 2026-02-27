@@ -1,4 +1,5 @@
 import javax.swing.*;
+import java.awt.*;
 
 public class CreateBorderLayout {
     public static void main(String args[]){
@@ -12,6 +13,12 @@ public class CreateBorderLayout {
         JPanel panel3 = new JPanel();
         JPanel panel4 = new JPanel();
         JPanel panel5 = new JPanel();
+
+        panel1.setBackground(Color.BLUE);
+        panel2.setBackground(Color.green);
+        panel3.setBackground(Color.cyan);
+        panel4.setBackground(Color.magenta);
+        panel5.setBackground(Color.orange);
 
     }
 }
