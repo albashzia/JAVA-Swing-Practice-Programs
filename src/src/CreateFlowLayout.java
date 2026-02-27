@@ -14,6 +14,7 @@ public class CreateFlowLayout {
         JPanel panel = new JPanel();
         panel.setPreferredSize(new Dimension(250,250));
         panel.setBackground(Color.DARK_GRAY);
+        panel.setLayout(new FlowLayout());
 
         panel.add(new JButton("1"));
         panel.add(new JButton("2"));
