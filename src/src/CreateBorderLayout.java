@@ -49,5 +49,10 @@ public class CreateBorderLayout {
         panel9.setBackground(Color.pink);
         panel10.setBackground(Color.RED);
 
+        panel6.setPreferredSize(new Dimension(20,20));
+        panel7.setPreferredSize(new Dimension(20,20));
+        panel8.setPreferredSize(new Dimension(20,20));
+        panel9.setPreferredSize(new Dimension(20,20));
+        panel10.setPreferredSize(new Dimension(20,20));
     }
 }
