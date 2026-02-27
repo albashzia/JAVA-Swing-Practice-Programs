@@ -43,6 +43,11 @@ public class CreateBorderLayout {
         JPanel panel9 = new JPanel();
         JPanel panel10 = new JPanel();
 
+        panel6.setBackground(Color.black);
+        panel7.setBackground(Color.gray);
+        panel8.setBackground(Color.darkGray);
+        panel9.setBackground(Color.pink);
+        panel10.setBackground(Color.RED);
 
     }
 }
