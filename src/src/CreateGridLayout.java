@@ -9,6 +9,7 @@ public class CreateGridLayout {
         frame.setSize(500,500);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
+        frame.setLayout(new GridLayout());
 
         frame.add(new JButton("1"));
         frame.add(new JButton("2"));
