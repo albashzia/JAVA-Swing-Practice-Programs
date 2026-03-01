@@ -9,6 +9,7 @@ public class CreateJLayeredPane {
 
 
         JFrame frame = new JFrame();
+        frame.add(layeredPane);
         frame.setLayout(null);
         frame.setSize(500,500);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
