@@ -5,7 +5,7 @@ public class CreateJLayeredPane {
     public static void main(String args[]){
 
         JLayeredPane layeredPane = new JLayeredPane();
-
+        layeredPane.setBounds(0,0,500,500);
 
 
         JFrame frame = new JFrame();
