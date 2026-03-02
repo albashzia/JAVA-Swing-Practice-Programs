@@ -19,6 +19,8 @@ public class LaunchPage implements ActionListener  {
         frame.setSize(420,420);
         frame.setLayout(null);
 
+        frame.add(button);
+
     }
 
     @Override
