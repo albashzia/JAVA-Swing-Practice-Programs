@@ -14,6 +14,7 @@ public class CreateJOptionPane {
 
         //String name = JOptionPane.showInputDialog("What is your name?");
 
+        String[] responses = {"No, you're awesome", "Thanks","Say Nothing"};
         JOptionPane.showOptionDialog(null,"You are awesome!","Title",JOptionPane.YES_NO_CANCEL_OPTION,JOptionPane.INFORMATION_MESSAGE,icon,null,0);
     }
 }
