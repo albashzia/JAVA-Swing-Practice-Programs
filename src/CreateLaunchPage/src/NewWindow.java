@@ -1,4 +1,5 @@
 import javax.swing.*;
+import java.awt.*;
 
 public class NewWindow {
 
@@ -6,6 +7,9 @@ public class NewWindow {
     JLabel label = new JLabel("Hello!");
 
     NewWindow(){
+
+        label.setBounds(0,0,100,50);
+        label.setFont(new Font("Comic Sans",Font.BOLD,30));
 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(420,420);
