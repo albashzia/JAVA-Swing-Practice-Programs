@@ -1,8 +1,9 @@
-import javax.swing.JOptionPane;
+import javax.swing.*;
 
 public class CreateJOptionPane {
     public static void main(String args[]){
 
+        ImageIcon icon = new ImageIcon("50px.png");
         //JOptionPane.showMessageDialog(null,"This is a message","Title", JOptionPane.PLAIN_MESSAGE );
         //JOptionPane.showMessageDialog(null,"This is a message","Title", JOptionPane.INFORMATION_MESSAGE );
         //JOptionPane.showMessageDialog(null,"This is a message","Title", JOptionPane.QUESTION_MESSAGE );
