@@ -7,7 +7,8 @@ public class CreateJOptionPane {
         //JOptionPane.showMessageDialog(null,"This is a message","Title", JOptionPane.INFORMATION_MESSAGE );
         //JOptionPane.showMessageDialog(null,"This is a message","Title", JOptionPane.QUESTION_MESSAGE );
         //JOptionPane.showMessageDialog(null,"This is a message","Title", JOptionPane.WARNING_MESSAGE );
-        JOptionPane.showMessageDialog(null,"This is a message","Title", JOptionPane.ERROR_MESSAGE );
+        //JOptionPane.showMessageDialog(null,"This is a message","Title", JOptionPane.ERROR_MESSAGE );
 
+        JOptionPane.showConfirmDialog(null,"Bro, Do you even code???","This is title",JOptionPane.YES_NO_CANCEL_OPTION);
     }
 }
