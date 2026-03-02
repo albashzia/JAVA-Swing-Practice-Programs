@@ -5,7 +5,7 @@ import java.awt.event.ActionListener;
 public class LaunchPage implements ActionListener  {
 
     JFrame frame = new JFrame();
-    JButton button = new JButton();
+    JButton button = new JButton("New Window");
 
     LaunchPage(){
 
