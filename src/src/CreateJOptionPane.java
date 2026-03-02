@@ -11,6 +11,8 @@ public class CreateJOptionPane {
 
         //JOptionPane.showConfirmDialog(null,"Bro, Do you even code???","This is title",JOptionPane.YES_NO_CANCEL_OPTION); // returns int value
 
-        String name = JOptionPane.showInputDialog("What is your name?");
+        //String name = JOptionPane.showInputDialog("What is your name?");
+
+        JOptionPane.showOptionDialog(null,"You are awesome!","Title",JOptionPane.YES_NO_CANCEL_OPTION,JOptionPane.INFORMATION_MESSAGE,null,null,0);
     }
 }
