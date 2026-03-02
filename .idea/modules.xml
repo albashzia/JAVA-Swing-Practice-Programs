@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/JAVA-Swing-Practice-Programs.iml" filepath="$PROJECT_DIR$/.idea/JAVA-Swing-Practice-Programs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/LaunchPage/LaunchPage.iml" filepath="$PROJECT_DIR$/src/LaunchPage/LaunchPage.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/src.iml" filepath="$PROJECT_DIR$/src/src.iml" />
     </modules>
   </component>
