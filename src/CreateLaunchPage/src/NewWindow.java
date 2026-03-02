@@ -16,5 +16,6 @@ public class NewWindow {
         frame.setLayout(null);
         frame.setVisible(true);
 
+        frame.add(label);
     }
 }
