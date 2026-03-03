@@ -7,9 +7,16 @@ public class CheckBoxesFrame extends JFrame implements ActionListener {
     JButton button = new JButton();
     JCheckBox checkBox = new JCheckBox();
 
+    ImageIcon xIcon;
+    ImageIcon tickIcon;
+
     CheckBoxesFrame(){
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLayout(new FlowLayout());
+
+
+        xIcon = new ImageIcon("x.png");
+        tickIcon = new ImageIcon("tick.png");
 
 
         button.setText("Submit");
