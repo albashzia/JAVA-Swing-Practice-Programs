@@ -5,6 +5,7 @@ import java.awt.event.*;
 public class CheckBoxesFrame extends JFrame implements ActionListener {
 
     JButton button = new JButton();
+    JCheckBox checkBox = new JCheckBox();
 
     CheckBoxesFrame(){
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -14,7 +15,7 @@ public class CheckBoxesFrame extends JFrame implements ActionListener {
         button.setText("Submit");
         button.addActionListener(this);
 
-        JCheckBox checkBox = new JCheckBox();
+
         checkBox.setText("I'm not a robot");
         checkBox.setFocusable(false);
         checkBox.setFont(new Font("Consolas", Font.BOLD, 30));
@@ -29,6 +30,6 @@ public class CheckBoxesFrame extends JFrame implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e){
-
+        
     }
 }
