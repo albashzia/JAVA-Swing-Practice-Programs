@@ -35,6 +35,8 @@ public class CreateFrameTextField extends JFrame implements ActionListener{
         if(e.getSource()==button){
             String inp = textField.getText();
             System.out.println(inp);
+            button.setEnabled(false);
+            textField.setEditable(false);
         }
     }
 }
