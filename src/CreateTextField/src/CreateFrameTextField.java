@@ -15,6 +15,8 @@ public class CreateFrameTextField extends JFrame implements ActionListener{
         JTextField textField = new JTextField();
         textField.setPreferredSize(new Dimension(250,40));
 
+        button.addActionListener(this);
+
         this.add(textField);
         this.add(button);
         this.setVisible(true);
