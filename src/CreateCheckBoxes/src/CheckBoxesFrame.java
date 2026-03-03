@@ -8,6 +8,10 @@ public class CheckBoxesFrame extends JFrame implements ActionListener {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLayout(new FlowLayout());
 
+        JButton button = new JButton();
+        button.setText("Submit");
+        button.addActionListener(this);
+
         JCheckBox checkBox = new JCheckBox();
         checkBox.setText("I'm not a robot");
         checkBox.setFocusable(false);
