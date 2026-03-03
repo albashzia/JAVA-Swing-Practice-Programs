@@ -4,11 +4,13 @@ import java.awt.event.*;
 
 public class CheckBoxesFrame extends JFrame implements ActionListener {
 
+    JButton button = new JButton();
+
     CheckBoxesFrame(){
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLayout(new FlowLayout());
 
-        JButton button = new JButton();
+
         button.setText("Submit");
         button.addActionListener(this);
 
