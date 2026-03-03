@@ -10,6 +10,7 @@ public class CheckBoxesFrame extends JFrame implements ActionListener {
 
         JCheckBox checkBox = new JCheckBox();
         checkBox.setText("I'm not a robot");
+        checkBox.setFocusable(false);
 
         this.add(checkBox);
 
