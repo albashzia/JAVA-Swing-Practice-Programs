@@ -13,6 +13,8 @@ public class CreateFrameTextField extends JFrame implements ActionListener{
         JTextField textField = new JTextField();
         textField.setPreferredSize(new Dimension(250,40));
 
+        this.add(textField);
+
         this.setVisible(true);
         this.pack();
 
