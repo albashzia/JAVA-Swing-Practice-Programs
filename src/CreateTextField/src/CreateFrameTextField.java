@@ -9,6 +9,10 @@ public class CreateFrameTextField extends JFrame implements ActionListener{
 
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLayout(new FlowLayout());
+
+        JTextField textField = new JTextField();
+
+
         this.setVisible(true);
         this.pack();
 
