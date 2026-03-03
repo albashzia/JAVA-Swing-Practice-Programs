@@ -10,6 +10,8 @@ public class CheckBoxesFrame extends JFrame implements ActionListener {
 
         JCheckBox checkBox = new JCheckBox();
 
+        this.add(checkBox);
+
         this.setVisible(true);
         this.pack();
     }
