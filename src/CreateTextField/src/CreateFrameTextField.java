@@ -11,12 +11,12 @@ public class CreateFrameTextField extends JFrame implements ActionListener{
         this.setLayout(new FlowLayout());
 
         JButton button = new JButton("Submit");
-        
+
         JTextField textField = new JTextField();
         textField.setPreferredSize(new Dimension(250,40));
 
         this.add(textField);
-
+        this.add(button);
         this.setVisible(true);
         this.pack();
 
