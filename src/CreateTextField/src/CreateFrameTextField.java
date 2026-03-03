@@ -26,6 +26,8 @@ public class CreateFrameTextField extends JFrame implements ActionListener{
 
     @Override
     public void actionPerformed(ActionEvent e){
-
+        if(e.getSource()==button){
+            textField.getText();
+        }
     }
 }
