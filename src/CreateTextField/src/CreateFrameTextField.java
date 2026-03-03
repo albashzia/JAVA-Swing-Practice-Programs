@@ -19,6 +19,7 @@ public class CreateFrameTextField extends JFrame implements ActionListener{
         textField.setForeground(new Color(0x00FF00));
         textField.setBackground(Color.BLACK);
         textField.setCaretColor(Color.WHITE);
+        textField.setText("username");
 
         button.addActionListener(this);
 
