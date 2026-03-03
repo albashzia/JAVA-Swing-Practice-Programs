@@ -17,4 +17,5 @@ public class CreateJOptionPane {
         String[] responses = {"No, you're awesome", "Thanks","Say Nothing"};
         JOptionPane.showOptionDialog(null,"You are awesome!","Title",JOptionPane.YES_NO_CANCEL_OPTION,JOptionPane.INFORMATION_MESSAGE,icon,responses,0);
     }
+
 }
