@@ -15,8 +15,8 @@ public class CheckBoxesFrame extends JFrame implements ActionListener {
         this.setLayout(new FlowLayout());
 
 
-        xIcon = new ImageIcon("x_40.png");
-        tickIcon = new ImageIcon("tick_40.png");
+        xIcon = new ImageIcon("x_40px.png");
+        tickIcon = new ImageIcon("tick_40px.png");
 
 
         button.setText("Submit");
