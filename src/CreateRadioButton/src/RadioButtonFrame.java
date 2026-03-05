@@ -12,12 +12,13 @@ public class RadioButtonFrame extends JFrame implements ActionListener{
 
         ButtonGroup group = new ButtonGroup();
 
-
-
-
         JRadioButton pizzaButton = new JRadioButton("Pizza");
         JRadioButton burgerButton = new JRadioButton("Burger");
         JRadioButton hotDogButton = new JRadioButton("HotDog");
+
+        group.add(pizzaButton);
+        group.add(burgerButton);
+        group.add(hotDogButton);
 
         this.add(pizzaButton);
         this.add(burgerButton);
