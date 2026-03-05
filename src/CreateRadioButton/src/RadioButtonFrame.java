@@ -5,6 +5,10 @@ import javax.swing.JRadioButton;
 
 public class RadioButtonFrame extends JFrame implements ActionListener{
 
+    JRadioButton pizzaButton = new JRadioButton("Pizza");
+    JRadioButton burgerButton = new JRadioButton("Burger");
+    JRadioButton hotDogButton = new JRadioButton("HotDog");
+
     RadioButtonFrame(){
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setVisible(true);
@@ -12,9 +16,7 @@ public class RadioButtonFrame extends JFrame implements ActionListener{
 
         ButtonGroup group = new ButtonGroup();
 
-        JRadioButton pizzaButton = new JRadioButton("Pizza");
-        JRadioButton burgerButton = new JRadioButton("Burger");
-        JRadioButton hotDogButton = new JRadioButton("HotDog");
+
 
         group.add(pizzaButton);
         group.add(burgerButton);
