@@ -9,6 +9,12 @@ public class RadioButtonFrame extends JFrame implements ActionListener{
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setVisible(true);
 
+
+        ButtonGroup group = new ButtonGroup();
+
+
+
+
         JRadioButton pizzaButton = new JRadioButton("Pizza");
         JRadioButton burgerButton = new JRadioButton("Burger");
         JRadioButton hotDogButton = new JRadioButton("HotDog");
