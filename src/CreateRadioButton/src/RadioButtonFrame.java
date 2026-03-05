@@ -32,6 +32,12 @@ public class RadioButtonFrame extends JFrame implements ActionListener{
 
     @Override
     public void actionPerformed(ActionEvent e){
-
+        if(e.getSource()==pizzaButton){
+            System.out.println("You ordered a pizza.");
+        } else if (e.getSource()==burgerButton) {
+            System.out.println("You ordered a burger.");
+        } else if (e.getSource()==hotDogButton) {
+            System.out.println("You ordered a HotDog.");
+        }
     }
 }
