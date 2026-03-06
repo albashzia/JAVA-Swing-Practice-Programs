@@ -23,13 +23,14 @@ public class RadioButtonFrame extends JFrame implements ActionListener{
         group.add(burgerButton);
         group.add(hotDogButton);
 
+        pizzaButton.setIcon(pizzaIcon);
+        burgerButton.setIcon(burgerIcon);
+        hotDogButton.setIcon(hotDogIcon);
+
         this.add(pizzaButton);
         this.add(burgerButton);
         this.add(hotDogButton);
 
-        pizzaButton.setIcon(pizzaIcon);
-        burgerButton.setIcon(burgerIcon);
-        hotDogButton.setIcon(hotDogIcon);
 
         pizzaButton.addActionListener(this);
         burgerButton.addActionListener(this);
