@@ -13,6 +13,9 @@ public class RadioButtonFrame extends JFrame implements ActionListener{
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setVisible(true);
 
+        ImageIcon pizzaIcon = new ImageIcon("pizza_40px.png");
+        ImageIcon burgerIcon = new ImageIcon("burger_40px.png");
+        ImageIcon hotDogIcon = new ImageIcon("hotdog_40px.png");
 
         ButtonGroup group = new ButtonGroup();
 
