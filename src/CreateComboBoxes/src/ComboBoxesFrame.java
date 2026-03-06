@@ -1,10 +1,17 @@
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class ComboBoxesFrame extends JFrame implements ActionListener {
 
+    ComboBoxesFrame(){
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.setLayout(new FlowLayout());
 
+        this.pack();
+        this.setVisible(true);
+    }
 
 
     @Override
