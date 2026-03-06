@@ -12,7 +12,7 @@ public class ComboBoxesFrame extends JFrame implements ActionListener {
         this.setLayout(new FlowLayout());
 
         String[] animals = {"dog","cat","bird"};
-        comboBox = new JComboBox();
+        comboBox = new JComboBox(animals);
 
         this.pack();
         this.setVisible(true);
