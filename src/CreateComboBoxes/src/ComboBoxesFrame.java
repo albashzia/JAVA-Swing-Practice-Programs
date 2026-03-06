@@ -17,6 +17,7 @@ public class ComboBoxesFrame extends JFrame implements ActionListener {
         //System.out.println(comboBox.getItemCount());
         //comboBox.addItem("horse");
         comboBox.insertItemAt("sheep",0);
+        comboBox.setSelectedIndex(0);
 
         comboBox.addActionListener(this);
         this.add(comboBox);
