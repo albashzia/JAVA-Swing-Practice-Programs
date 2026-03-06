@@ -19,8 +19,6 @@ public class RadioButtonFrame extends JFrame implements ActionListener{
 
         ButtonGroup group = new ButtonGroup();
 
-
-
         group.add(pizzaButton);
         group.add(burgerButton);
         group.add(hotDogButton);
@@ -28,6 +26,10 @@ public class RadioButtonFrame extends JFrame implements ActionListener{
         this.add(pizzaButton);
         this.add(burgerButton);
         this.add(hotDogButton);
+
+        pizzaButton.setIcon(pizzaIcon);
+        burgerButton.setIcon(burgerIcon);
+        hotDogButton.setIcon(hotDogIcon);
 
         pizzaButton.addActionListener(this);
         burgerButton.addActionListener(this);
