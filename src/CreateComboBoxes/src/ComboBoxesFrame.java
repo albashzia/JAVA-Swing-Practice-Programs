@@ -10,6 +10,8 @@ public class ComboBoxesFrame extends JFrame implements ActionListener {
     ComboBoxesFrame(){
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLayout(new FlowLayout());
+
+        String[] animals = {"dog","cat","bird"};
         comboBox = new JComboBox();
 
         this.pack();
