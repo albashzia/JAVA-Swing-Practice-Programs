@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/src/Code.iml" filepath="$PROJECT_DIR$/src/Code.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/CreateCheckBoxes/CreateCheckBoxes.iml" filepath="$PROJECT_DIR$/src/CreateCheckBoxes/CreateCheckBoxes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/CreateComboBoxes/CreateComboBoxes.iml" filepath="$PROJECT_DIR$/src/CreateComboBoxes/CreateComboBoxes.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/CreateRadioButton/CreateRadioButton.iml" filepath="$PROJECT_DIR$/src/CreateRadioButton/CreateRadioButton.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/CreateTextField/CreateTextField.iml" filepath="$PROJECT_DIR$/src/CreateTextField/CreateTextField.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JAVA-Swing-Practice-Programs.iml" filepath="$PROJECT_DIR$/.idea/JAVA-Swing-Practice-Programs.iml" />
