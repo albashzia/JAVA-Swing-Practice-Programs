@@ -5,9 +5,12 @@ import java.awt.event.ActionListener;
 
 public class ComboBoxesFrame extends JFrame implements ActionListener {
 
+    JComboBox comboBox;
+
     ComboBoxesFrame(){
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLayout(new FlowLayout());
+        comboBox = new JComboBox();
 
         this.pack();
         this.setVisible(true);
