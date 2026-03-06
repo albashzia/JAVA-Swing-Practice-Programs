@@ -13,7 +13,7 @@ public class ComboBoxesFrame extends JFrame implements ActionListener {
 
         String[] animals = {"dog","cat","bird"};
         comboBox = new JComboBox(animals);
-
+        comboBox.setEditable(true);
         comboBox.addActionListener(this);
         this.add(comboBox);
         this.pack();
