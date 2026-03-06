@@ -22,6 +22,8 @@ public class ComboBoxesFrame extends JFrame implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e){
-
+        if(e.getSource()==comboBox){
+            System.out.println(comboBox.getSelectedItem());
+        }
     }
 }
