@@ -14,6 +14,7 @@ public class ComboBoxesFrame extends JFrame implements ActionListener {
         String[] animals = {"dog","cat","bird"};
         comboBox = new JComboBox(animals);
 
+        this.add(comboBox);
         this.pack();
         this.setVisible(true);
     }
