@@ -26,6 +26,10 @@ public class RadioButtonFrame extends JFrame implements ActionListener{
         this.add(burgerButton);
         this.add(hotDogButton);
 
+        pizzaButton.addActionListener(this);
+        burgerButton.addActionListener(this);
+        hotDogButton.addActionListener(this);
+
         this.setLayout(new FlowLayout());
         this.pack();
     }
