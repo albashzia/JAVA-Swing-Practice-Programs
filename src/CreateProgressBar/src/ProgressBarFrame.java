@@ -11,7 +11,7 @@ public class ProgressBarFrame {
         bar.setBounds(0,0,400,50);
         bar.setStringPainted(true);
 
-
+        frame.add(bar);
         frame.setSize(420,420);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
