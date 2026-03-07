@@ -4,8 +4,10 @@ import javax.swing.event.*;
 
 public class JSliderFrame implements ChangeListener{
 
-
-
+    JFrame frame;
+    JPanel panel;
+    JLabel label;
+    JSlider slider;
 
     @Override
     public void stateChanged(ChangeEvent e){
