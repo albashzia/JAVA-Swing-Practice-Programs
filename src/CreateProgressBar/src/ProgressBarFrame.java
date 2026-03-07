@@ -7,5 +7,12 @@ public class ProgressBarFrame {
 
     ProgressBarFrame(){
 
+
+
+
+        frame.setSize(420,420);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setVisible(true);
+        frame.setLayout(null);
     }
 }
