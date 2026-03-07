@@ -7,7 +7,7 @@ public class ProgressBarFrame {
 
     ProgressBarFrame(){
 
-
+        bar.setValue(0);
 
 
         frame.setSize(420,420);
