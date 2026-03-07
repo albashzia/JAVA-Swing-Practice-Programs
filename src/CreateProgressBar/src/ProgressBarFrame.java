@@ -16,5 +16,10 @@ public class ProgressBarFrame {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
         frame.setLayout(null);
+
+        fill();
+    }
+    public void fill(){
+
     }
 }
