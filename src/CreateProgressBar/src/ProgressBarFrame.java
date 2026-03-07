@@ -33,6 +33,7 @@ public class ProgressBarFrame {
             }
             counter+=1;
         }
+        bar.setString("Done!");
 
     }
 }
