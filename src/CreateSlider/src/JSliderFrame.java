@@ -27,6 +27,8 @@ public class JSliderFrame implements ChangeListener{
 
         slider.setOrientation(SwingConstants.VERTICAL);
 
+        label.setText("°C "+slider.getValue());
+
         panel.add(slider);
         panel.add(label);
         frame.add(panel);
