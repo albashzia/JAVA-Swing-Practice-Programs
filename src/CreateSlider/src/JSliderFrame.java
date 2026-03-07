@@ -30,6 +30,8 @@ public class JSliderFrame implements ChangeListener{
 
         label.setText("°C "+slider.getValue());
 
+        slider.addChangeListener(this);
+
         panel.add(slider);
         panel.add(label);
         frame.add(panel);
