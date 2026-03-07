@@ -19,6 +19,9 @@ public class JSliderFrame implements ChangeListener{
         panel.add(label);
         frame.add(panel);
 
+        frame.setSize(420,420);
+        frame.setVisible(true);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
     @Override
