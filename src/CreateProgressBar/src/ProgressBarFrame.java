@@ -10,12 +10,13 @@ public class ProgressBarFrame {
         bar.setValue(0);
         bar.setBounds(0,0,400,50);
         bar.setStringPainted(true);
+        bar.setForeground(Color.BLUE);
 
         frame.add(bar);
         frame.setSize(420,420);
+        frame.setLayout(null);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
-        frame.setLayout(null);
 
         fill();
     }
@@ -25,7 +26,7 @@ public class ProgressBarFrame {
         while(counter<=100){
             bar.setValue(counter);
             try{
-                Thread.sleep(500);
+                Thread.sleep(100);
             } catch (InterruptedException e) {
                 System.out.println(e.getMessage());
             }
