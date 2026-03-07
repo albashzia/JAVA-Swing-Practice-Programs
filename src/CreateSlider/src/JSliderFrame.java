@@ -18,6 +18,9 @@ public class JSliderFrame implements ChangeListener{
         slider.setPaintTicks(true);
         slider.setMinorTickSpacing(10);
 
+        slider.setPaintTrack(true);
+        slider.setMajorTickSpacing(25);
+
         panel.add(slider);
         panel.add(label);
         frame.add(panel);
