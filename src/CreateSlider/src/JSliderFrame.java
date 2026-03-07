@@ -9,6 +9,10 @@ public class JSliderFrame implements ChangeListener{
     JLabel label;
     JSlider slider;
 
+    JSliderFrame(){
+
+    }
+
     @Override
     public void stateChanged(ChangeEvent e){
 
