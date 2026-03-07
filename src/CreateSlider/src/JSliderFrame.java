@@ -41,6 +41,6 @@ public class JSliderFrame implements ChangeListener{
 
     @Override
     public void stateChanged(ChangeEvent e){
-
+        label.setText("°C "+slider.getValue());
     }
 }
