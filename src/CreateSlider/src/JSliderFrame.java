@@ -23,6 +23,8 @@ public class JSliderFrame implements ChangeListener{
 
         slider.setPaintLabels(true);
 
+        slider.setFont(new Font("MV Boli", Font.PLAIN,15));
+
         panel.add(slider);
         panel.add(label);
         frame.add(panel);
