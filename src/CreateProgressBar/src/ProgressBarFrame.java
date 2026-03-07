@@ -11,6 +11,7 @@ public class ProgressBarFrame {
         bar.setBounds(0,0,400,50);
         bar.setStringPainted(true);
         bar.setForeground(Color.BLUE);
+        bar.setBackground(Color.BLACK);
 
         frame.add(bar);
         frame.setSize(420,420);
