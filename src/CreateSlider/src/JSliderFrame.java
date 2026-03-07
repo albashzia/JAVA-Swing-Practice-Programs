@@ -14,6 +14,7 @@ public class JSliderFrame implements ChangeListener{
         panel = new JPanel();
         label = new JLabel();
         slider = new JSlider(0,100,50); // (min value, max value, starting value)
+        slider.setPreferredSize(new Dimension(400,200));
 
         panel.add(slider);
         panel.add(label);
