@@ -9,6 +9,8 @@ public class ProgressBarFrame {
 
         bar.setValue(0);
         bar.setBounds(0,0,400,50);
+        bar.setStringPainted(true);
+
 
         frame.setSize(420,420);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
