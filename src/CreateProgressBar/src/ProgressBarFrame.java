@@ -20,6 +20,17 @@ public class ProgressBarFrame {
         fill();
     }
     public void fill(){
+        int counter = 0;
+
+        while(counter<=100){
+            bar.setValue(counter);
+            try{
+                Thread.sleep(500);
+            } catch (InterruptedException e) {
+                System.out.println(e.getMessage());
+            }
+            counter+=1;
+        }
 
     }
 }
