@@ -24,6 +24,7 @@ public class JSliderFrame implements ChangeListener{
         slider.setPaintLabels(true);
 
         slider.setFont(new Font("MV Boli", Font.PLAIN,15));
+        label.setFont(new Font("MV Boli", Font.PLAIN,25));
 
         slider.setOrientation(SwingConstants.VERTICAL);
 
