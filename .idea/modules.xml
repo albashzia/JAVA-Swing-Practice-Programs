@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/src/Code.iml" filepath="$PROJECT_DIR$/src/Code.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/CreateCheckBoxes/CreateCheckBoxes.iml" filepath="$PROJECT_DIR$/src/CreateCheckBoxes/CreateCheckBoxes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/CreateColorChooser/CreateColorChooser.iml" filepath="$PROJECT_DIR$/src/CreateColorChooser/CreateColorChooser.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/CreateComboBoxes/CreateComboBoxes.iml" filepath="$PROJECT_DIR$/src/CreateComboBoxes/CreateComboBoxes.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/CreateMenuBar/CreateMenuBar.iml" filepath="$PROJECT_DIR$/src/CreateMenuBar/CreateMenuBar.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/CreateProgressBar/CreateProgressBar.iml" filepath="$PROJECT_DIR$/src/CreateProgressBar/CreateProgressBar.iml" />
