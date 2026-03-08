@@ -18,8 +18,9 @@ public class KeyListenerFrame extends JFrame implements KeyListener {
         label.setIcon(rocket);
         label.setBounds(0,0,100,100);
         //label.setBackground(Color.RED);
-        label.setOpaque(true);
+        //label.setOpaque(true);
 
+        this.getContentPane().setBackground(Color.BLACK);
         this.add(label);
         this.setVisible(true);
     }
