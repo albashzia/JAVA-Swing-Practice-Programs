@@ -24,6 +24,7 @@ public class KeyListenerFrame extends JFrame implements KeyListener {
 
     @Override
     public void keyReleased(KeyEvent e){
-        System.out.println("You released key : "+e.getKeyChar());
+        //System.out.println("You released key : "+e.getKeyChar());
+        System.out.println("You released key with code : "+e.getKeyCode());
     }
 }
