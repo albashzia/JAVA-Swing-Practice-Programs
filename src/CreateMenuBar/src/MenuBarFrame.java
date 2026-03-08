@@ -14,11 +14,19 @@ public class MenuBarFrame extends JFrame implements ActionListener{
     JMenuItem saveItem;
     JMenuItem exitItem;
 
+    ImageIcon loadIcon;
+    ImageIcon saveIcon;
+    ImageIcon exitIcon;
+
     MenuBarFrame(){
 
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setSize(500,500);
         this.setLayout(new FlowLayout());
+
+        loadIcon = new ImageIcon("load_40px.png");
+        saveIcon = new ImageIcon("save_40px.png");
+        exitIcon = new ImageIcon("exit_40px.png");
 
         menuBar = new JMenuBar();
 
@@ -37,6 +45,10 @@ public class MenuBarFrame extends JFrame implements ActionListener{
         loadItem.setMnemonic(KeyEvent.VK_L);
         saveItem.setMnemonic(KeyEvent.VK_S);
         exitItem.setMnemonic(KeyEvent.VK_E);
+
+        loadItem.setIcon(loadIcon);
+        saveItem.setIcon(saveIcon);
+        exitItem.setIcon(exitIcon);
 
         loadItem.addActionListener(this);
         saveItem.addActionListener(this);
