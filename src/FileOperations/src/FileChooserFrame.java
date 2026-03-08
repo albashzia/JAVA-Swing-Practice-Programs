@@ -20,7 +20,9 @@ public class FileChooserFrame extends JFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e){
         if (e.getSource()==button){
+            JFileChooser fileChooser = new JFileChooser();
 
+            fileChooser.showOpenDialog(null);
         }
     }
 }
