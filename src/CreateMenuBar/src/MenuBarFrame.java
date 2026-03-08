@@ -50,6 +50,14 @@ public class MenuBarFrame extends JFrame implements ActionListener{
 
     @Override
     public void actionPerformed(ActionEvent e){
-
+        if(e.getSource()==loadItem){
+            System.out.println("You loaded a file.");
+        }
+        else if (e.getSource()==saveItem) {
+            System.out.println("You saved a file");
+        }
+        else if (e.getSource()==exitItem) {
+            System.exit(0);
+        }
     }
 }
