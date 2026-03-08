@@ -8,7 +8,7 @@ public class MenuBarFrame extends JFrame implements ActionListener{
 
     JMenu fileMenu;
     JMenu editMenu;
-    JMenu exitMenu;
+    JMenu helpMenu;
 
     JMenuItem loadItem;
     JMenuItem saveItem;
@@ -24,11 +24,15 @@ public class MenuBarFrame extends JFrame implements ActionListener{
 
         fileMenu = new JMenu("File");
         editMenu = new JMenu("Edit");
-        exitMenu = new JMenu("Help");
+        helpMenu = new JMenu("Help");
 
         loadItem = new JMenuItem("Load");
         saveItem = new JMenuItem("Save");
         exitItem = new JMenuItem("Exit");
+
+        fileMenu.setMnemonic(KeyEvent.VK_F);
+        editMenu.setMnemonic(KeyEvent.VK_E);
+        helpMenu.setMnemonic(KeyEvent.VK_H);
 
         loadItem.setMnemonic(KeyEvent.VK_L);
         saveItem.setMnemonic(KeyEvent.VK_S);
@@ -44,7 +48,7 @@ public class MenuBarFrame extends JFrame implements ActionListener{
 
         menuBar.add(fileMenu);
         menuBar.add(editMenu);
-        menuBar.add(exitMenu);
+        menuBar.add(helpMenu);
 
         this.setJMenuBar(menuBar);
         this.setVisible(true);
