@@ -14,11 +14,14 @@ public class ColorChooserFrame extends JFrame implements ActionListener {
         button = new JButton("Pick a color");
         label = new JLabel();
 
+        button.addActionListener(this);
+
         label.setBackground(Color.WHITE);
         label.setOpaque(true);
         label.setFont(new Font("MV Boli", Font.ITALIC,100));
         label.setText("This is some text");
 
+        this.add(button);
         this.add(label);
         this.pack();
         this.setVisible(true);
