@@ -32,6 +32,7 @@ public class ColorChooserFrame extends JFrame implements ActionListener {
         if(e.getSource()==button){
             JColorChooser colorChooser = new JColorChooser();
             Color color = JColorChooser.showDialog(null, "Color Chooser Dialog Box",Color.BLACK);
+            label.setForeground(color);
         }
     }
 }
