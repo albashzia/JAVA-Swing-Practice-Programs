@@ -1,5 +1,6 @@
 import java.awt.*;
 import java.awt.event.*;
+import java.io.File;
 import javax.swing.*;
 
 public class FileChooserFrame extends JFrame implements ActionListener {
@@ -24,6 +25,11 @@ public class FileChooserFrame extends JFrame implements ActionListener {
 
             int response = fileChooser.showOpenDialog(null);
             System.out.println(response);
+
+            if(response==JFileChooser.APPROVE_OPTION){
+                File file = new File(fileChooser.getSelectedFile().getAbsolutePath());
+                System.out.println(file);
+            }
         }
     }
 }
