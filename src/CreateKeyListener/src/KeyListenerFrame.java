@@ -41,6 +41,20 @@ public class KeyListenerFrame extends JFrame implements KeyListener {
 
     @Override
     public void keyPressed(KeyEvent e){
+        switch (e.getKeyCode()){
+            case 37:
+                label.setLocation(label.getX()-5,label.getY());
+                break;
+            case 39:
+                label.setLocation(label.getX()+5, label.getY());
+                break;
+            case 40:
+                label.setLocation(label.getX(), label.getY()+5);
+                break;
+            case 38:
+                label.setLocation(label.getX(), label.getY()-5);
+                break;
+        }
 
     }
 
