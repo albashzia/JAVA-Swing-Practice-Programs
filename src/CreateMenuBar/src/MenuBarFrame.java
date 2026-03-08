@@ -4,21 +4,31 @@ import javax.swing.*;
 
 public class MenuBarFrame extends JFrame implements ActionListener{
 
+    JMenuBar menuBar;
+
+    JMenu fileMenu;
+    JMenu editMenu;
+    JMenu exitMenu;
+
+    JMenuItem loadItem;
+    JMenuItem saveItem;
+    JMenuItem exitItem;
+
     MenuBarFrame(){
 
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setSize(500,500);
         this.setLayout(new FlowLayout());
 
-        JMenuBar menuBar = new JMenuBar();
+        menuBar = new JMenuBar();
 
-        JMenu fileMenu = new JMenu("File");
-        JMenu editMenu = new JMenu("Edit");
-        JMenu exitMenu = new JMenu("Help");
+        fileMenu = new JMenu("File");
+        editMenu = new JMenu("Edit");
+        exitMenu = new JMenu("Help");
 
-        JMenuItem loadItem = new JMenuItem("Load");
-        JMenuItem saveItem = new JMenuItem("Save");
-        JMenuItem exitItem = new JMenuItem("Exit");
+        loadItem = new JMenuItem("Load");
+        saveItem = new JMenuItem("Save");
+        exitItem = new JMenuItem("Exit");
 
         loadItem.addActionListener(this);
         saveItem.addActionListener(this);
