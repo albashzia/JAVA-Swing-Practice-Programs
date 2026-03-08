@@ -10,7 +10,7 @@ public class FileChooserFrame extends JFrame implements ActionListener {
         this.setLayout(new FlowLayout());
 
         button = new JButton("Select File");
-
+        button.addActionListener(this);
         this.add(button);
 
         this.pack();
@@ -19,6 +19,8 @@ public class FileChooserFrame extends JFrame implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e){
+        if (e.getSource()==button){
 
+        }
     }
 }
