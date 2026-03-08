@@ -5,6 +5,7 @@ import java.awt.event.*;
 public class KeyListenerFrame extends JFrame implements KeyListener {
 
     JLabel label;
+    ImageIcon rocket;
 
     KeyListenerFrame(){
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -12,9 +13,11 @@ public class KeyListenerFrame extends JFrame implements KeyListener {
         this.addKeyListener(this);
         this.setLayout(null);
 
+        rocket = new ImageIcon("rocket_100px.png");
         label = new JLabel();
+        label.setIcon(rocket);
         label.setBounds(0,0,100,100);
-        label.setBackground(Color.RED);
+        //label.setBackground(Color.RED);
         label.setOpaque(true);
 
         this.add(label);
