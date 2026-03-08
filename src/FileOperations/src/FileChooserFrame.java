@@ -23,6 +23,8 @@ public class FileChooserFrame extends JFrame implements ActionListener {
         if (e.getSource()==button){
             JFileChooser fileChooser = new JFileChooser();
 
+            fileChooser.setCurrentDirectory(new File("."));
+
             //int response = fileChooser.showOpenDialog(null);
             int response = fileChooser.showSaveDialog(null);
             System.out.println(response);
