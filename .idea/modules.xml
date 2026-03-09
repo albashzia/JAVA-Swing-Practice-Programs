@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/src/CreateComboBoxes/CreateComboBoxes.iml" filepath="$PROJECT_DIR$/src/CreateComboBoxes/CreateComboBoxes.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/CreateKeyListener/CreateKeyListener.iml" filepath="$PROJECT_DIR$/src/CreateKeyListener/CreateKeyListener.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/CreateMenuBar/CreateMenuBar.iml" filepath="$PROJECT_DIR$/src/CreateMenuBar/CreateMenuBar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/CreateMouseListener/CreateMouseListener.iml" filepath="$PROJECT_DIR$/src/CreateMouseListener/CreateMouseListener.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/CreateProgressBar/CreateProgressBar.iml" filepath="$PROJECT_DIR$/src/CreateProgressBar/CreateProgressBar.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/CreateRadioButton/CreateRadioButton.iml" filepath="$PROJECT_DIR$/src/CreateRadioButton/CreateRadioButton.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/CreateSlider/CreateSlider.iml" filepath="$PROJECT_DIR$/src/CreateSlider/CreateSlider.iml" />
