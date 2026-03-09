@@ -5,10 +5,19 @@ import javax.swing.*;
 public class MouseListenerFrame extends JFrame implements MouseListener{
 
     JLabel label;
+    ImageIcon smile;
+    ImageIcon angry;
+    ImageIcon nervous;
+    ImageIcon dizzy;
 
     MouseListenerFrame(){
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLayout(null);
+
+        smile = new ImageIcon("smile_500px.png");
+        angry = new ImageIcon("angry_500px.png");
+        nervous = new ImageIcon("nervous_500px.png");
+        dizzy = new ImageIcon("dizzy_500px.png");
 
         label = new JLabel();
         label.setBounds(0,0,100,100);
