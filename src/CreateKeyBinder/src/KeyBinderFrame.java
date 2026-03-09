@@ -19,6 +19,12 @@ public class KeyBinderFrame {
         frame.setSize(420,420);
         frame.setLayout(null);
 
+        label = new JLabel();
+        label.setBounds(100,100,100,100);
+        label.setBackground(Color.BLUE);
+        label.setOpaque(true);
+
+        frame.add(label);
         frame.setVisible(true);
 
     }
