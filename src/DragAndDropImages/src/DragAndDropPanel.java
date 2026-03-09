@@ -15,6 +15,8 @@ public class DragAndDropPanel extends JPanel {
         imageCorner = new Point(0,0);
         ClickListener clickListener = new ClickListener();
         DragListener dragListener = new DragListener();
+        this.addMouseListener(clickListener);
+        this.addMouseMotionListener(dragListener);
     }
 
     public void paintComponent(Graphics g){
