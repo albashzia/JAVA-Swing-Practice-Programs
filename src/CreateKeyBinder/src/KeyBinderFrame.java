@@ -24,6 +24,11 @@ public class KeyBinderFrame {
         label.setBackground(Color.BLUE);
         label.setOpaque(true);
 
+        upAction = new UpAction();
+        downAction = new DownAction();
+        leftAction = new LeftAction();
+        rightAction = new RightAction();
+
         frame.add(label);
         frame.setVisible(true);
 
