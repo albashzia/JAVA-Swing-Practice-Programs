@@ -36,25 +36,25 @@ public class KeyBinderFrame {
 
     public class UpAction extends AbstractAction {
         public void actionPerformed(ActionEvent e) {
-
+            label.setLocation(label.getX(),label.getY()-10);
         }
     }
 
     public class DownAction extends AbstractAction{
         public void actionPerformed(ActionEvent e){
-
+            label.setLocation(label.getX(),label.getY()+10);
         }
     }
 
     public class LeftAction extends AbstractAction{
         public void actionPerformed(ActionEvent e){
-
+            label.setLocation(label.getX()-10,label.getY());
         }
     }
 
     public class RightAction extends AbstractAction{
         public void actionPerformed(ActionEvent e){
-
+            label.setLocation(label.getX()+10,label.getY());
         }
     }
 }
