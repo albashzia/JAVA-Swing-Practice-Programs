@@ -1,7 +1,17 @@
 import javax.swing.*;
+import javax.swing.Action;
 import java.awt.event.ActionEvent;
+import java.awt.Desktop.*;
 
 public class KeyBinderFrame {
+
+    JFrame frame;
+    JLabel label;
+    Action upAction;
+    Action downAction;
+    Action leftAction;
+    Action rightAction;
+
     KeyBinderFrame() {
 
     }
