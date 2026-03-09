@@ -20,6 +20,8 @@ public class DragAndDropPanel extends JPanel {
     }
 
     public void paintComponent(Graphics g){
+        super.paintComponent(g);
+        icon.paintIcon(this,g,(int)imageCorner.getX(),(int)imageCorner.getY());
 
     }
 
