@@ -1,5 +1,6 @@
 import javax.swing.*;
 import javax.swing.Action;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.Desktop.*;
 
@@ -13,6 +14,12 @@ public class KeyBinderFrame {
     Action rightAction;
 
     KeyBinderFrame() {
+        frame = new JFrame("Key Binding Demo");
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setSize(420,420);
+        frame.setLayout(null);
+
+        frame.setVisible(true);
 
     }
 
