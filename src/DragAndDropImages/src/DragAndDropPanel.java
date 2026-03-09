@@ -33,6 +33,14 @@ public class DragAndDropPanel extends JPanel {
     }
 
     private class DragListener extends MouseMotionAdapter{
-
+        public void mouseDragged(MouseEvent e){
+            Point currentPoint = e.getPoint();
+            imageCorner.translate(
+                    (int)(currentPoint.getX() - previousPoint.getX()),
+                    (int)(currentPoint.getY() - previousPoint.getY())
+            );
+            previousPoint = currentPoint;
+            repaint();
+        }
     }
 }
