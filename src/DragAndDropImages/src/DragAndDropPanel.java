@@ -1,6 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.MouseAdapter;
+import java.awt.event.MouseMotionAdapter;
 
 public class DragAndDropPanel extends JPanel {
 
@@ -15,6 +16,10 @@ public class DragAndDropPanel extends JPanel {
     }
 
     private class ClickListener extends MouseAdapter{
+
+    }
+
+    private class DragListener extends MouseMotionAdapter{
 
     }
 }
