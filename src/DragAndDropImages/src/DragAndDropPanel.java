@@ -1,2 +1,4 @@
-public class DragAndDropPanel {
+import javax.swing.*;
+
+public class DragAndDropPanel extends JPanel {
 }
