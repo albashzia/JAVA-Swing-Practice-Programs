@@ -1,7 +1,13 @@
 import javax.swing.*;
 
 public class DragAndDropFrame extends JFrame{
+
+    DragAndDropPanel dragPanel = new DragAndDropPanel();
+
     DragAndDropFrame(){
+
+        this.add(dragPanel);
+
         this.setTitle("Drag and Drop Demo");
         this.setLayout(null);
         this.setSize(600,600);
