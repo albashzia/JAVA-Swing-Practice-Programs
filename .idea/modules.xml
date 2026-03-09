@@ -14,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/src/CreateRadioButton/CreateRadioButton.iml" filepath="$PROJECT_DIR$/src/CreateRadioButton/CreateRadioButton.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/CreateSlider/CreateSlider.iml" filepath="$PROJECT_DIR$/src/CreateSlider/CreateSlider.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/CreateTextField/CreateTextField.iml" filepath="$PROJECT_DIR$/src/CreateTextField/CreateTextField.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/DragAndDropImages/DragAndDropImages.iml" filepath="$PROJECT_DIR$/src/DragAndDropImages/DragAndDropImages.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/FileOperations/FileOperations.iml" filepath="$PROJECT_DIR$/src/FileOperations/FileOperations.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JAVA-Swing-Practice-Programs.iml" filepath="$PROJECT_DIR$/.idea/JAVA-Swing-Practice-Programs.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/CreateLaunchPage/LaunchPage.iml" filepath="$PROJECT_DIR$/src/CreateLaunchPage/LaunchPage.iml" />
