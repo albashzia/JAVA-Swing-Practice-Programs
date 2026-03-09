@@ -4,9 +4,17 @@ import javax.swing.*;
 
 public class MouseListenerFrame extends JFrame implements MouseListener{
 
+    JLabel label;
+
     MouseListenerFrame(){
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLayout(null);
+
+        label = new JLabel();
+        label.setBounds(0,0,100,100);
+        label.setForeground(Color.BLUE);
+
+        this.add(label);
         this.setSize(500,500);
         this.setVisible(true);
     }
