@@ -1,2 +1,4 @@
-public class DragAndDropFrame {
+import javax.swing.*;
+
+public class DragAndDropFrame extends JFrame{
 }
