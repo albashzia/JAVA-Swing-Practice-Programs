@@ -6,6 +6,8 @@ import java.awt.event.MouseMotionAdapter;
 public class DragAndDropPanel extends JPanel {
 
     ImageIcon icon = new ImageIcon("smile_120px.png");
+    final int WIDTH = icon.getIconWidth();
+    final int HEIGHT = icon.getIconHeight();
 
     DragAndDropPanel(){
 
