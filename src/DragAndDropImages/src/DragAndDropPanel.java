@@ -12,7 +12,7 @@ public class DragAndDropPanel extends JPanel {
     Point previousPoint;
 
     DragAndDropPanel(){
-
+        imageCorner = new Point(0,0);
     }
 
     public void paintComponent(Graphics g){
