@@ -6,4 +6,10 @@ public class GraphicsPanel extends JPanel {
     GraphicsPanel(){
 
     }
+
+    public void paint(Graphics g){
+        Graphics2D g2d = (Graphics2D) g;
+
+        g2d.drawLine(0,0,500,500);
+    }
 }
