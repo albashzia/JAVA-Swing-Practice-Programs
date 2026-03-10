@@ -9,4 +9,8 @@ public class GraphicsFrame extends JFrame{
         this.setLocationRelativeTo(null);
         this.setVisible(true);
     }
+
+    public void paint(Graphics g){
+
+    }
 }
