@@ -4,7 +4,7 @@ import java.awt.*;
 public class GraphicsPanel extends JPanel {
 
     GraphicsPanel(){
-
+        this.setPreferredSize(new Dimension(500,500));
     }
 
     public void paint(Graphics g){
