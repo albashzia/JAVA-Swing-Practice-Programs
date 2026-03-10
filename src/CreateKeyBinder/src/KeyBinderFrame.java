@@ -38,6 +38,9 @@ public class KeyBinderFrame {
         label.getInputMap().put(KeyStroke.getKeyStroke("LEFT"),"leftAction");
         label.getActionMap().put("leftAction",leftAction);
 
+        label.getInputMap().put(KeyStroke.getKeyStroke("RIGHT"),"rightAction");
+        label.getActionMap().put("rightAction",rightAction);
+
         frame.add(label);
         frame.setVisible(true);
 
