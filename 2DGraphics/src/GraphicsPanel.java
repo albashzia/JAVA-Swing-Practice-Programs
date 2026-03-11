@@ -12,6 +12,7 @@ public class GraphicsPanel extends JPanel {
 
         g2d.setPaint(Color.BLUE);
         g2d.setStroke(new BasicStroke(5));
-        g2d.drawLine(0,0,500,500);
+        //g2d.drawLine(0,0,500,500);
+        g2d.drawRect(0,0,100,100);
     }
 }
