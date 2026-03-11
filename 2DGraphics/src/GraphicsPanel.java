@@ -15,5 +15,7 @@ public class GraphicsPanel extends JPanel {
         //g2d.drawLine(0,0,500,500);
         g2d.drawRect(0,0,100,100);
         g2d.fillRect(150,0,100,100);
+        
+        g2d.drawOval(10,120,100,100);
     }
 }
