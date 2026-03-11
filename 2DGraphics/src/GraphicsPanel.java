@@ -28,6 +28,8 @@ public class GraphicsPanel extends JPanel {
         int[] yPoints = {300,150,300};
 
         //g2d.drawPolygon(xPoints,yPoints,3);
-        g2d.fillPolygon(xPoints,yPoints,3);
+        //g2d.fillPolygon(xPoints,yPoints,3);
+
+        g2d.drawString("Java",50,50);
     }
 }
