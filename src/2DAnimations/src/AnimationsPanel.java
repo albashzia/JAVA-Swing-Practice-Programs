@@ -10,7 +10,7 @@ public class AnimationsPanel extends JPanel implements ActionListener{
     Image enemy;
     Image backgroundImage;
     Timer timer;
-    int xVelocity = 1;
+    int xVelocity = 2;
     int yVelocity = 1;
     int x = 0;
     int y = 0;
@@ -30,10 +30,10 @@ public class AnimationsPanel extends JPanel implements ActionListener{
     }
 
     public void actionPerformed(ActionEvent e){
-//        if(x>=PANEL_WIDTH-enemy.getWidth(null)|| x<0){
-//            xVelocity = xVelocity * -1;
-//        }
-//        x = x + xVelocity;
+        if(x>=PANEL_WIDTH-enemy.getWidth(null)|| x<0){
+            xVelocity = xVelocity * -1;
+        }
+        x = x + xVelocity;
 
         if(y>=PANEL_HEIGHT-enemy.getHeight(null)|| y<0){
             yVelocity = yVelocity * -1;
