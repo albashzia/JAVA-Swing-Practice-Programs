@@ -18,7 +18,7 @@ public class AnimationsPanel extends JPanel implements ActionListener{
     AnimationsPanel(){
         this.setPreferredSize(new Dimension(PANEL_WIDTH,PANEL_HEIGHT));
         enemy = new ImageIcon("enemy_40px.png").getImage();
-        timer = new Timer(1000,this);
+        timer = new Timer(10,this);
         timer.start();
     }
 
