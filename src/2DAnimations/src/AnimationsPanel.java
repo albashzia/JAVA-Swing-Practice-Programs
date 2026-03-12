@@ -3,7 +3,7 @@ import java.awt.event.*;
 import javax.swing.*;
 
 
-public class AnimationsPanel extends JPanel{
+public class AnimationsPanel extends JPanel implements ActionListener{
 
     final int PANEL_WIDTH = 500;
     final int PANEL_HEIGHT = 500;
@@ -19,5 +19,9 @@ public class AnimationsPanel extends JPanel{
         this.setPreferredSize(new Dimension(PANEL_WIDTH,PANEL_HEIGHT));
         enemy = new ImageIcon("enemy_40px.png").getImage();
         timer = new Timer(1000,null);
+    }
+
+    public void actionPerformed(ActionEvent e){
+
     }
 }
