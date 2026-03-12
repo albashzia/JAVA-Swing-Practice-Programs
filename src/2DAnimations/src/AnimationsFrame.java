@@ -11,6 +11,7 @@ public class AnimationsFrame extends JFrame{
 
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
+        this.add(panel);
         
         this.pack();
         this.setLocationRelativeTo(null);
