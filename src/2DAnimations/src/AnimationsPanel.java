@@ -21,6 +21,10 @@ public class AnimationsPanel extends JPanel implements ActionListener{
         timer = new Timer(1000,null);
     }
 
+    public void paint(Graphics g){
+        Graphics2D g2D = (Graphics2D)g;
+    }
+
     public void actionPerformed(ActionEvent e){
 
     }
