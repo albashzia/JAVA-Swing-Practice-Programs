@@ -23,6 +23,8 @@ public class AnimationsPanel extends JPanel implements ActionListener{
 
     public void paint(Graphics g){
         Graphics2D g2D = (Graphics2D)g;
+
+        g2D.drawImage(enemy,x,y,null);
     }
 
     public void actionPerformed(ActionEvent e){
