@@ -17,6 +17,7 @@ public class AnimationsPanel extends JPanel implements ActionListener{
 
     AnimationsPanel(){
         this.setPreferredSize(new Dimension(PANEL_WIDTH,PANEL_HEIGHT));
+        backgroundImage = new ImageIcon("sky_500px.png").getImage();
         enemy = new ImageIcon("enemy_40px.png").getImage();
         timer = new Timer(10,this);
         timer.start();
@@ -26,6 +27,7 @@ public class AnimationsPanel extends JPanel implements ActionListener{
         super.paint(g);
         Graphics2D g2D = (Graphics2D)g;
 
+        g2D.drawImage(backgroundImage,0,0,null);
         g2D.drawImage(enemy,x,y,null);
     }
 
