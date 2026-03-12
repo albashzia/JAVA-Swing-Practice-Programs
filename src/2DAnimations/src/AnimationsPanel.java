@@ -17,5 +17,7 @@ public class AnimationsPanel extends JPanel{
 
     AnimationsPanel(){
         this.setPreferredSize(new Dimension(PANEL_WIDTH,PANEL_HEIGHT));
+        enemy = new ImageIcon("enemy_40px.png").getImage();
+        timer = new Timer(1000,null);
     }
 }
