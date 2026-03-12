@@ -16,6 +16,6 @@ public class AnimationsPanel extends JPanel{
     int y = 0;
 
     AnimationsPanel(){
-
+        this.setPreferredSize(new Dimension(PANEL_WIDTH,PANEL_HEIGHT));
     }
 }
