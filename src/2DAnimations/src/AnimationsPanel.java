@@ -30,10 +30,15 @@ public class AnimationsPanel extends JPanel implements ActionListener{
     }
 
     public void actionPerformed(ActionEvent e){
-        if(x>=PANEL_WIDTH-enemy.getWidth(null)|| x<0){
-            xVelocity = xVelocity * -1;
+//        if(x>=PANEL_WIDTH-enemy.getWidth(null)|| x<0){
+//            xVelocity = xVelocity * -1;
+//        }
+//        x = x + xVelocity;
+
+        if(y>=PANEL_HEIGHT-enemy.getHeight(null)|| y<0){
+            yVelocity = yVelocity * -1;
         }
-        x = x + xVelocity;
+        y = y + yVelocity;
         repaint();
     }
 }
