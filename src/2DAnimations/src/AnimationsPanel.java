@@ -18,16 +18,19 @@ public class AnimationsPanel extends JPanel implements ActionListener{
     AnimationsPanel(){
         this.setPreferredSize(new Dimension(PANEL_WIDTH,PANEL_HEIGHT));
         enemy = new ImageIcon("enemy_40px.png").getImage();
-        timer = new Timer(1000,null);
+        timer = new Timer(1000,this);
+        timer.start();
     }
 
     public void paint(Graphics g){
+        super.paint(g);
         Graphics2D g2D = (Graphics2D)g;
 
         g2D.drawImage(enemy,x,y,null);
     }
 
     public void actionPerformed(ActionEvent e){
-
+        x = x + xVelocity;
+        repaint();
     }
 }
