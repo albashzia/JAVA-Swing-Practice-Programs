@@ -5,17 +5,23 @@ import javax.swing.JPanel;
 
 public class CreateFlowLayout {
     public static void main(String args[]){
-        JFrame frame = new JFrame();
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setVisible(true);
-        frame.setLayout(new FlowLayout(FlowLayout.CENTER,10,10));
-        frame.setSize(500,500);
 
-        JPanel panel = new JPanel();
-        panel.setPreferredSize(new Dimension(250,250));
-        panel.setBackground(Color.DARK_GRAY);
-        panel.setLayout(new FlowLayout());
+        //FRAME
 
+        JFrame frame = new JFrame();//instantiating
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);//setting close operation
+        frame.setLayout(new FlowLayout(FlowLayout.CENTER,10,10));// arranges components in a centered row with 10px spacing
+        frame.setSize(500,500); //setting the size of the frame
+        frame.setVisible(true);//setting visibility of the frame
+
+        //PANEL
+
+        JPanel panel = new JPanel();//instantiating
+        panel.setPreferredSize(new Dimension(250,250));//setting dimensions of the panel
+        panel.setBackground(Color.DARK_GRAY); //setting background color for the panel
+        panel.setLayout(new FlowLayout());  // places buttons left-to-right and moves them to a new row when space runs out
+
+        //instantiating and adding buttons to the panel
         panel.add(new JButton("1"));
         panel.add(new JButton("2"));
         panel.add(new JButton("3"));
@@ -26,7 +32,8 @@ public class CreateFlowLayout {
         panel.add(new JButton("8"));
         panel.add(new JButton("9"));
 
-        frame.add(panel);
 
+        //adding panel to the frame
+        frame.add(panel);
     }
 }
