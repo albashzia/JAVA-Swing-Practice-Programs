@@ -22,5 +22,6 @@ public class CalculatorFrame extends JFrame {
         panel.add(new JButton("="));
         panel.add(new JButton("+"));
         this.add(panel);
+        this.setVisible(true);
     }
 }
