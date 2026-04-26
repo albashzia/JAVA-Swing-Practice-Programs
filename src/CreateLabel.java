@@ -4,8 +4,7 @@ import java.awt.Color;
 import java.awt.Font;
 
 public class CreateLabel {
-    public static void main() {
-
+        public CreateLabel(){
         ImageIcon image = new ImageIcon("300px.png"); // creating an ImageIcon
         Border border = BorderFactory.createLineBorder(Color.BLACK,3); // creating a border
 
