@@ -4,7 +4,7 @@ public class MainRunner {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the respective number to call the constructor:\n" +
                 "1.CreateFrame" +
-                "\n2." +
+                "\n2.CreateLabel" +
                 "\n3." +
                 "\n4." +
                 "\n5." +
@@ -17,6 +17,10 @@ public class MainRunner {
 
         if (userInput==1){
             new CreateFrame();
+        }
+
+        else if (userInput==2){
+            new CreateLabel();
         }
     }
 }
