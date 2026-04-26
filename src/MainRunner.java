@@ -3,7 +3,7 @@ public class MainRunner {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the respective number to call the constructor:\n" +
-                "1." +
+                "1.CreateFrame" +
                 "\n2." +
                 "\n3." +
                 "\n4." +
@@ -14,5 +14,9 @@ public class MainRunner {
                 "\n9." +
                 "\n10.");
         int userInput = input.nextInt();
+
+        if (userInput==1){
+            new CreateFrame();
+        }
     }
 }
