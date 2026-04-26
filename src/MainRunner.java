@@ -13,6 +13,6 @@ public class MainRunner {
                 "\n8." +
                 "\n9." +
                 "\n10.");
-
+        int userInput = input.nextInt();
     }
 }
