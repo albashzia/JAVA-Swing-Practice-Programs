@@ -1,12 +1,11 @@
-# JAVA Swing Practice Programs
+<h1 align="center"> JAVA Swing Practice Programs</h1>
 
 This repository contains a collection of small Java programs created while learning **Java Swing**, the GUI toolkit included in the Java Standard Library. The purpose of the repository is to practice and explore how graphical user interfaces are built using Swing components and layouts.
 
 The programs focus on experimenting with different UI elements and understanding how they interact with event handling, layout managers, and container components.
 
----
 
-## Overview
+<h2 align="center">Overview</h2>
 
 Java Swing provides a set of tools for building desktop graphical applications in Java. While learning these concepts, individual programs were written to explore how specific components behave and how they can be combined to build functional interfaces.
 
@@ -14,9 +13,8 @@ This repository organizes those practice programs into small, focused examples t
 
 Each program typically focuses on a single concept or component to help isolate and understand its behavior.
 
----
 
-## Topics Covered
+<h2 align="center">Topics Covered</h2>
 
 The repository includes practice examples related to the following Swing components and concepts.
 
