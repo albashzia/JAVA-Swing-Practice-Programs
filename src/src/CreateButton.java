@@ -9,10 +9,6 @@ public class CreateButton implements ActionListener{
     JButton button = new JButton();// button component that the user will click
     JLabel label = new JLabel();// label that will display an image after button click
 
-    public static void main(String[] args){
-        new CreateButton(); // creates an object which calls the constructor to build the GUI
-    }
-
     public CreateButton(){
 
         ImageIcon icon = new ImageIcon("75px.png");// image for the label
