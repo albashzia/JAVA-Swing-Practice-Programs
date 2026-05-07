@@ -7,7 +7,7 @@ public class MainRunner {
                 "\n2.CreateLabel" +
                 "\n3.CreateButton" +
                 "\n4.CreatePanel" +
-                "\n5." +
+                "\n5.CreateJOptionPane" +
                 "\n6." +
                 "\n7." +
                 "\n8." +
@@ -29,6 +29,10 @@ public class MainRunner {
 
         else if(userInput==4){
             new CreatePanel();
+        }
+
+        else if(userInput==5){
+            new CreateJOptionPane();
         }
     }
 }
