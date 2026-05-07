@@ -3,7 +3,7 @@ import javax.swing.JFrame;
 import javax.swing.JButton;
 
 public class CreateGridLayout {
-    public static void main(String args[]){
+    public CreateGridLayout(){
         JFrame frame = new JFrame();//instantiating the frame
         frame.setSize(500,500);//setting the size of the frame
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);//setting close operation
