@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class CreatePanel {
-    public static void main(String[] args)
+    public CreatePanel()
     {
         //creating an ImageIcon object to hold an image
         ImageIcon icon = new ImageIcon("300px.png");
