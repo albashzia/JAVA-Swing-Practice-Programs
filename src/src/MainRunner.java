@@ -9,7 +9,7 @@ public class MainRunner {
                 "\n4.CreatePanel" +
                 "\n5.CreateJOptionPane" +
                 "\n6.CreateJLayeredPane" +
-                "\n7." +
+                "\n7.CreateGridLayout" +
                 "\n8." +
                 "\n9." +
                 "\n10.");
@@ -37,6 +37,10 @@ public class MainRunner {
 
         else if(userInput==6){
             new CreateJLayeredPane();
+        }
+
+        else if(userInput==7){
+            new CreateGridLayout();
         }
     }
 }
