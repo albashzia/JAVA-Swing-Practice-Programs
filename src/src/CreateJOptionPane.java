@@ -1,7 +1,7 @@
 import javax.swing.*;
 
 public class CreateJOptionPane {
-    public static void main(String args[]){
+    public CreateJOptionPane(){
 
         ImageIcon icon = new ImageIcon("50px.png");
         //JOptionPane.showMessageDialog(null,"This is a message","Title", JOptionPane.PLAIN_MESSAGE );
