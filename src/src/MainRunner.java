@@ -10,7 +10,7 @@ public class MainRunner {
                 "\n5.CreateJOptionPane" +
                 "\n6.CreateJLayeredPane" +
                 "\n7.CreateGridLayout" +
-                "\n8." +
+                "\n8.CreateBorderLayout" +
                 "\n9." +
                 "\n10.");
         int userInput = input.nextInt();
@@ -41,6 +41,10 @@ public class MainRunner {
 
         else if(userInput==7){
             new CreateGridLayout();
+        }
+
+        else if(userInput==8){
+            new CreateBorderLayout();
         }
     }
 }
