@@ -46,5 +46,9 @@ public class MainRunner {
         else if(userInput==8){
             new CreateBorderLayout();
         }
+
+        else if(userInput==9){
+            new CreateFlowLayout();
+        }
     }
 }
