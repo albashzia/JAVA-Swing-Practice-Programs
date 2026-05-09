@@ -4,7 +4,7 @@ import javax.swing.JButton;
 import javax.swing.JPanel;
 
 public class CreateFlowLayout {
-    public static void main(String args[]){
+    CreateFlowLayout(){
 
         //FRAME
 
