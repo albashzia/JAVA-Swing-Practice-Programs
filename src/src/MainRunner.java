@@ -11,7 +11,7 @@ public class MainRunner {
                 "\n6.CreateJLayeredPane" +
                 "\n7.CreateGridLayout" +
                 "\n8.CreateBorderLayout" +
-                "\n9." +
+                "\n9.CreateFlowLayout" +
                 "\n10.");
         int userInput = input.nextInt();
 
