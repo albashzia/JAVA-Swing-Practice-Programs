@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class CreateBorderLayout {
-    public static void main(String args[]){
+    CreateBorderLayout(){
 
         // ==========FRAME==========
         JFrame frame = new JFrame();//instantiating
