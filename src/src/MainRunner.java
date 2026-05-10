@@ -12,7 +12,7 @@ public class MainRunner {
                 "\n7.CreateGridLayout" +
                 "\n8.CreateBorderLayout" +
                 "\n9.CreateFlowLayout" +
-                "\n10.");
+                "\n10.MenuBarFrame");
         int userInput = input.nextInt();
 
         if (userInput==1){
@@ -49,6 +49,10 @@ public class MainRunner {
 
         else if(userInput==9){
             new CreateFlowLayout();
+        }
+
+        else if(userInput==10){
+            new MenuBarFrame();
         }
     }
 }
