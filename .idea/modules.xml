@@ -10,7 +10,6 @@
       <module fileurl="file://$PROJECT_DIR$/src/CreateComboBoxes/CreateComboBoxes.iml" filepath="$PROJECT_DIR$/src/CreateComboBoxes/CreateComboBoxes.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/CreateKeyBinder/CreateKeyBinder.iml" filepath="$PROJECT_DIR$/src/CreateKeyBinder/CreateKeyBinder.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/CreateKeyListener/CreateKeyListener.iml" filepath="$PROJECT_DIR$/src/CreateKeyListener/CreateKeyListener.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/CreateMenuBar/CreateMenuBar.iml" filepath="$PROJECT_DIR$/src/CreateMenuBar/CreateMenuBar.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/CreateMouseListener/CreateMouseListener.iml" filepath="$PROJECT_DIR$/src/CreateMouseListener/CreateMouseListener.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/CreateMouseListenerDemo/CreateMouseListenerDemo.iml" filepath="$PROJECT_DIR$/src/CreateMouseListenerDemo/CreateMouseListenerDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/CreateProgressBar/CreateProgressBar.iml" filepath="$PROJECT_DIR$/src/CreateProgressBar/CreateProgressBar.iml" />
