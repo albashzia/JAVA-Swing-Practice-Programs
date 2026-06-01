@@ -12,7 +12,7 @@ public class KeyBinderFrame {
     Action leftAction;
     Action rightAction;
 
-    KeyBinderFrame() {
+    public KeyBinderFrame() {
         frame = new JFrame("Key Binding Demo");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(420,420);
