@@ -10,7 +10,7 @@ public class CheckBoxesFrame extends JFrame implements ActionListener {
     ImageIcon xIcon;
     ImageIcon tickIcon;
 
-    CheckBoxesFrame(){
+    public CheckBoxesFrame(){
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLayout(new FlowLayout());
 
