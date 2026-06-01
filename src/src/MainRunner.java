@@ -13,7 +13,8 @@ public class MainRunner {
                 "\n8.CreateBorderLayout" +
                 "\n9.CreateFlowLayout" +
                 "\n10.MenuBarFrame"+
-                "\n11.ProgressBarFrame");
+                "\n11.ProgressBarFrame"+
+                "\n12.KeyBinderFrame");
         int userInput = input.nextInt();
 
         if (userInput==1){
@@ -58,6 +59,10 @@ public class MainRunner {
 
         else if(userInput==11){
             new ProgressBarFrame();
+        }
+
+        else if(userInput ==12){
+            new KeyBinderFrame();
         }
     }
 }
