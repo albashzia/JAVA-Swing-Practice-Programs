@@ -2,7 +2,6 @@ import javax.swing.*;
 import javax.swing.Action;
 import java.awt.*;
 import java.awt.event.ActionEvent;
-import java.awt.Desktop.*;
 
 public class KeyBinderFrame {
 
