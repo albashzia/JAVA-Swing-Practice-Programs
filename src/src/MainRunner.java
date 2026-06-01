@@ -14,7 +14,8 @@ public class MainRunner {
                 "\n9.CreateFlowLayout" +
                 "\n10.MenuBarFrame"+
                 "\n11.ProgressBarFrame"+
-                "\n12.KeyBinderFrame");
+                "\n12.KeyBinderFrame" +
+                "\n13.CheckBoxesFrame");
         int userInput = input.nextInt();
 
         if (userInput==1){
@@ -63,6 +64,10 @@ public class MainRunner {
 
         else if(userInput ==12){
             new KeyBinderFrame();
+        }
+
+        else if(userInput==13){
+            new CheckBoxesFrame();
         }
     }
 }
