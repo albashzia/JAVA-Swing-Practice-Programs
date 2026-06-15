@@ -15,7 +15,8 @@ public class MainRunner {
                 "\n10.MenuBarFrame"+
                 "\n11.ProgressBarFrame"+
                 "\n12.KeyBinderFrame" +
-                "\n13.CheckBoxesFrame");
+                "\n13.CheckBoxesFrame"+
+                "\n14.ColorChooserFrame");
         int userInput = input.nextInt();
 
         if (userInput==1){
