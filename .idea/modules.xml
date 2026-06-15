@@ -6,7 +6,6 @@
       <module fileurl="file://$PROJECT_DIR$/src/2DGraphics/2DGraphics.iml" filepath="$PROJECT_DIR$/src/2DGraphics/2DGraphics.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/Code.iml" filepath="$PROJECT_DIR$/src/Code.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/CreateCheckBoxes/CreateCheckBoxes.iml" filepath="$PROJECT_DIR$/src/CreateCheckBoxes/CreateCheckBoxes.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/CreateColorChooser/CreateColorChooser.iml" filepath="$PROJECT_DIR$/src/CreateColorChooser/CreateColorChooser.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/CreateComboBoxes/CreateComboBoxes.iml" filepath="$PROJECT_DIR$/src/CreateComboBoxes/CreateComboBoxes.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/CreateKeyListener/CreateKeyListener.iml" filepath="$PROJECT_DIR$/src/CreateKeyListener/CreateKeyListener.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/CreateMouseListener/CreateMouseListener.iml" filepath="$PROJECT_DIR$/src/CreateMouseListener/CreateMouseListener.iml" />
