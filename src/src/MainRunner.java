@@ -69,5 +69,9 @@ public class MainRunner {
         else if(userInput==13){
             new CheckBoxesFrame();
         }
+
+        else if (userInput==14) {
+            new ColorChooserFrame();
+        }
     }
 }
