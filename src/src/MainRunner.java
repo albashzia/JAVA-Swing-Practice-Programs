@@ -73,5 +73,9 @@ public class MainRunner {
         else if (userInput==14) {
             new ColorChooserFrame();
         }
+
+        else if (userInput==15) {
+            new RadioButtonFrame();
+        }
     }
 }
