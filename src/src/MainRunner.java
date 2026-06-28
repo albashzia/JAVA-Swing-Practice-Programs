@@ -18,7 +18,8 @@ public class MainRunner {
                 "\n13.CheckBoxesFrame"+
                 "\n14.ColorChooserFrame"+
                 "\n15.RadioButtonFrame"+
-                "\n16.JSliderFrame");
+                "\n16.JSliderFrame"+
+                "\n17.CreateFrameTextField");
         int userInput = input.nextInt();
 
         if (userInput==1){
@@ -83,6 +84,10 @@ public class MainRunner {
 
         else if(userInput==16){
             new JSliderFrame();
+        }
+
+        else if(userInput==17){
+            new CreateFrameTextField();
         }
     }
 }
