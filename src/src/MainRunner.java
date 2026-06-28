@@ -17,7 +17,8 @@ public class MainRunner {
                 "\n12.KeyBinderFrame" +
                 "\n13.CheckBoxesFrame"+
                 "\n14.ColorChooserFrame"+
-                "\n15.RadioButtonFrame");
+                "\n15.RadioButtonFrame"+
+                "\n16.JSliderFrame");
         int userInput = input.nextInt();
 
         if (userInput==1){
@@ -78,6 +79,10 @@ public class MainRunner {
 
         else if (userInput==15) {
             new RadioButtonFrame();
+        }
+
+        else if(userInput==16){
+            new JSliderFrame();
         }
     }
 }
